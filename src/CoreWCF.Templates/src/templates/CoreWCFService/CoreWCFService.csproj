@@ -1,6 +1,5 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
     <!--#if(nullableEnabled)-->
     <Nullable>enable</Nullable>
     <!--#endif-->

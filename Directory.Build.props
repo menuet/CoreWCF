@@ -7,6 +7,8 @@
     <ConfigPathSegment>Debug</ConfigPathSegment>
     <ConfigPathSegment Condition="'$(Configuration)'!=''">$(Configuration)</ConfigPathSegment>
     <LangVersion>10.0</LangVersion>
+    <TargetFrameworks>net6.0;net7.0</TargetFrameworks>
+    <TargetFrameworks Condition="'$(OS)' == 'Windows_NT'">$(TargetFrameworks);net472</TargetFrameworks>
   </PropertyGroup>
 
   <!-- Set up some common paths -->
